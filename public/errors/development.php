@@ -9,7 +9,7 @@
     <style>
         .error{
             border: 3px solid red;
-            padding: 30px 50px;
+            padding: 0 50px;
             font-family: "Courier New", Monospace, sans-serif;
         }
     </style>

@@ -9,6 +9,7 @@ use Monolog\Handler\StreamHandler;
 use vendor\core\base\View;
 use PHPMailer\PHPMailer\PHPMailer;
 use vendor\libs\Genpass;
+use Gregwar\Captcha\CaptchaBuilder;
 
 class MainController extends AppController
 {
@@ -59,7 +60,27 @@ class MainController extends AppController
 //            $res = 'OK';
 //        }
 
-//        $this->set(['res'=>$res]);
+//        if (isset($_POST['go']))
+//        {
+//            if ($_POST['cap'] == $_SESSION['phrase'])
+//            {
+//                echo "<div class='alert-success text-center'>Капча указана верно</div>";
+//            }
+//            else
+//            {
+//                echo "<div class='alert-danger text-center'>Не верно!</div>";
+//            }
+//        }
+//
+//        $builder = new CaptchaBuilder;
+//        $builder->build();
+//        $src = $builder->inline();
+//        $_SESSION['phrase'] = $builder->getPhrase();
+//
+//
+// 
+//        $this->set(['src'=>$src]);
 
     }
+    
 }
