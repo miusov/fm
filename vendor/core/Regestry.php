@@ -37,8 +37,6 @@ class Regestry
 
     public function getList()  //выводит массив $objects, в котором хранятся классы из /config/config.php
     {
-        echo '<pre>';
-        var_dump(self::$objects);
-        echo '</pre>';
+        xprint(self::$objects, 'getList()');
     }
 }

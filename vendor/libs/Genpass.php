@@ -5,10 +5,8 @@ namespace vendor\libs;
 
 class Genpass
 {
-    public static function gen()
+    public static function gen($number)
     {
-        $number = 10;
-
         $arr = [
             'a','b','c','d','e','f','g','h','i','j','k','l',
             'm','n','o','p','q','r','s','t','u','v','x','y',

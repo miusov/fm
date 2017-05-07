@@ -8,7 +8,6 @@ use Monolog\Logger;
 use Monolog\Handler\StreamHandler;
 use vendor\core\base\View;
 use PHPMailer\PHPMailer\PHPMailer;
-use vendor\libs\Genpass;
 use Gregwar\Captcha\CaptchaBuilder;
 
 class MainController extends AppController
