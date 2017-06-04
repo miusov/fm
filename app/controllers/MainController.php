@@ -9,6 +9,7 @@ use Monolog\Handler\StreamHandler;
 use vendor\core\base\View;
 use PHPMailer\PHPMailer\PHPMailer;
 use Gregwar\Captcha\CaptchaBuilder;
+use vendor\widgets\menu\Menu;
 
 class MainController extends AppController
 {
@@ -33,8 +34,6 @@ class MainController extends AppController
 //        $logger = new Logger('find city');
 //        $logger->pushHandler(new StreamHandler(ROOT.'/logs/log', Logger::DEBUG));
 //        $logger->debug('find city');
-
-//        $var = Genpass::gen();
 //
 //        $mail = new PHPMailer;
 //        $mail->isSMTP();
@@ -79,7 +78,24 @@ class MainController extends AppController
 //
 // 
 //        $this->set(['src'=>$src]);
-
+        
+//        new Menu([
+//            'tpl' => ROOT . '/vendor/widgets/menu/menu_tpl/select_menu.php',
+//            'container' => 'select',
+//            'class' => 'qwerty',
+//            'table' => 'categories',
+//            'cache' => 60,
+//            'cacheKey' => 'select_menu',
+//        ]);
+//
+        new Menu([
+            'tpl' => ROOT . '/vendor/widgets/menu/menu_tpl/menu.php',
+            'container' => 'ul',
+            'class' => 'default',
+            'table' => 'categories',
+            'cache' => 60,
+            'cacheKey' => 'ul_menu',
+        ]);
     }
     
 }

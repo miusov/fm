@@ -176,7 +176,7 @@ EMERGENCY (600): Emergency: system is unusable.
 
 ### ---CAPTCHA--- ###
 
-`use Gregwar\Captcha\CaptchaBuilder;`           //одключаем класс
+`use Gregwar\Captcha\CaptchaBuilder;`           //подключаем класс
 `$builder = new CaptchaBuilder;`                //создаем обьект капчи
 `$builder->build();`                            //создаем саму капчу
 `$src = $builder->inline();`                    //записываем в переменную(которую нужно подставить в <img src="<?=$src?>">) $src путь к капче
@@ -206,3 +206,19 @@ EMERGENCY (600): Emergency: system is unusable.
         `} else {`
         `    $res = 'OK';`
         `}`
+
+### ---MENU--- ###
+
+Меню выводится из таблицы БД. Таблица строится таким образом: id,title - название пункта меню, parent_id - id родительског опункта(если пункт сам является родителем - то 0).
+
+Вызываем меню и задаем параметры:
+
+
+`new Menu([`
+    `'tpl' => ROOT . '/vendor/widgets/menu/menu_tpl/menu.php',`     //указываем путь к шаблону меню
+    `'container' => 'ul',`                                          //устанавливаем тег-обертку
+    `'class' => 'default',`                                         //указываем класс
+    `'table' => 'categories',`                                      //указываем таблицу БД из которой построим меню
+    `'cache' => 3600,`                                              //время кеширования
+    `'cacheKey' => 'ul_menu',`                                      //ключ кеша
+    `]);`

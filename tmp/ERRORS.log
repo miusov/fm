@@ -1,0 +1,18 @@
+[2017-05-12 22:10:28] ErrorText: Страница не найдена | ErrorFile: W:\domains\fw\vendor\core\Router.php | ErrorString: 88
+ 
+[2017-05-14 20:34:37] ErrorText: Страница не найдена | ErrorFile: W:\domains\fw\vendor\core\Router.php | ErrorString: 88
+ 
+[2017-05-14 20:35:03] ErrorText: Undefined variable: test | ErrorFile: W:\domains\fw\app\controllers\MainController.php | ErrorString: 82
+ 
+[2017-05-14 20:35:18] ErrorText: Undefined variable: test | ErrorFile: W:\domains\fw\app\controllers\MainController.php | ErrorString: 82
+ 
+[2017-05-14 20:43:25] ErrorText: Invalid error type specified | ErrorFile: W:\domains\fw\app\controllers\MainController.php | ErrorString: 83
+ 
+[2017-05-14 20:43:36] ErrorText: Invalid error type specified | ErrorFile: W:\domains\fw\app\controllers\MainController.php | ErrorString: 83
+ 
+[2017-05-14 21:21:18] ErrorText: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'myshop.categories' doesn't exist | ErrorFile: W:\domains\fw\vendor\libs\rb.php | ErrorString: 720
+ 
+[2017-06-04 20:47:54] ErrorText: require(W:\domains\fw/widgets/menu/menu_tpl/menu.php): failed to open stream: No such file or directory | ErrorFile: W:\domains\fw\vendor\widgets\menu\Menu.php | ErrorString: 88
+ 
+[2017-06-04 21:22:52] ErrorText: file_put_contents(W:\domains\fw/tmp/cache/538402ea18fd22e68ae06467e8324d03txt): failed to open stream: No such file or directory | ErrorFile: W:\domains\fw\vendor\libs\Cache.php | ErrorString: 20
+ 
