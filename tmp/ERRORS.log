@@ -16,3 +16,17 @@
  
 [2017-06-04 21:22:52] ErrorText: file_put_contents(W:\domains\fw/tmp/cache/538402ea18fd22e68ae06467e8324d03txt): failed to open stream: No such file or directory | ErrorFile: W:\domains\fw\vendor\libs\Cache.php | ErrorString: 20
  
+[2017-06-05 20:17:23] ErrorText: Undefined variable: menu | ErrorFile: W:\domains\fw\app\views\Main\index.php | ErrorString: 2
+ 
+[2017-06-05 20:19:15] ErrorText: Undefined variable: qwerty | ErrorFile: W:\domains\fw\app\views\Main\index.php | ErrorString: 2
+ 
+[2017-06-05 20:22:02] ErrorText: Object of class vendor\widgets\menu\Menu could not be converted to string | ErrorFile: W:\domains\fw\app\views\Main\index.php | ErrorString: 2
+ 
+[2017-06-05 20:22:37] ErrorText: Class 'Menu' not found | ErrorFile: W:\domains\fw\app\views\Main\index.php | ErrorString: 4
+ 
+[2017-06-05 22:10:28] ErrorText: Страница не найдена | ErrorFile: D:\Progs\OpenServer\domains\fw\vendor\core\Router.php | ErrorString: 88
+ 
+[2017-06-05 22:32:29] ErrorText: Could not connect to database (test). | ErrorFile: D:\Progs\OpenServer\domains\fw\vendor\libs\rb.php | ErrorString: 858
+ 
+[2017-06-05 22:48:34] ErrorText: Undefined index: parent | ErrorFile: D:\Progs\OpenServer\domains\fw\vendor\widgets\menu\Menu.php | ErrorString: 71
+ 

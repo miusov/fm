@@ -29,7 +29,7 @@ class MainController extends AppController
 //        echo $city['name'];
 //        App::$app->cache->delete('users');
 //        $this->set(['citys'=>$citys]);
-//        View::setMeta('Интернет магазин', 'Описание Интернет магазина', 'Ключевые слова Интернет магазина');
+        View::setMeta('Title', 'Description', 'Keywords');
 
 //        $logger = new Logger('find city');
 //        $logger->pushHandler(new StreamHandler(ROOT.'/logs/log', Logger::DEBUG));
@@ -88,14 +88,15 @@ class MainController extends AppController
 //            'cacheKey' => 'select_menu',
 //        ]);
 //
-        new Menu([
-            'tpl' => ROOT . '/vendor/widgets/menu/menu_tpl/menu.php',
-            'container' => 'ul',
-            'class' => 'default',
-            'table' => 'categories',
-            'cache' => 60,
-            'cacheKey' => 'ul_menu',
-        ]);
+//        new Menu([
+//            'tpl' => ROOT . '/vendor/widgets/menu/menu_tpl/menu.php',
+//            'container' => 'ul',
+//            'class' => 'default',
+//            'table' => 'categories',
+//            'cache' => 60,
+//            'cacheKey' => 'ul_menu',
+//        ]);
+
     }
     
 }
