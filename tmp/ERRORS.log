@@ -30,3 +30,69 @@
  
 [2017-06-05 22:48:34] ErrorText: Undefined index: parent | ErrorFile: D:\Progs\OpenServer\domains\fw\vendor\widgets\menu\Menu.php | ErrorString: 71
  
+[2017-06-24 17:33:04] ErrorText: unserialize(): Error at offset 18 of 726 bytes | ErrorFile: D:\install\OpenServer\domains\fw\vendor\libs\Cache.php | ErrorString: 33
+ 
+[2017-06-24 17:33:05] ErrorText: Страница не найдена | ErrorFile: D:\install\OpenServer\domains\fw\vendor\core\Router.php | ErrorString: 88
+ 
+[2017-06-24 17:37:17] ErrorText: Could not connect to database (test). | ErrorFile: D:\install\OpenServer\domains\fw\vendor\libs\rb.php | ErrorString: 858
+ 
+[2017-06-25 21:09:30] ErrorText: Страница не найдена | ErrorFile: D:\install\OpenServer\domains\fw\vendor\core\Router.php | ErrorString: 98
+ 
+[2017-06-25 21:14:52] ErrorText: Контроллер <b>app\controllers\admin\UserController</b> не найден | ErrorFile: D:\install\OpenServer\domains\fw\vendor\core\Router.php | ErrorString: 91
+ 
+[2017-06-25 21:15:10] ErrorText: Контроллер <b>app\controllers\admin\TestController</b> не найден | ErrorFile: D:\install\OpenServer\domains\fw\vendor\core\Router.php | ErrorString: 91
+ 
+[2017-06-25 21:17:15] ErrorText: Контроллер <b>app\controllers\admin\TestController</b> не найден | ErrorFile: D:\install\OpenServer\domains\fw\vendor\core\Router.php | ErrorString: 92
+ 
+[2017-06-25 21:23:32] ErrorText: Контроллер <b>app\controllers\admin\TestController</b> не найден | ErrorFile: D:\install\OpenServer\domains\fw\vendor\core\Router.php | ErrorString: 92
+ 
+[2017-06-25 21:23:49] ErrorText: Контроллер <b>app\controllers\admin\TestController</b> не найден | ErrorFile: D:\install\OpenServer\domains\fw\vendor\core\Router.php | ErrorString: 92
+ 
+[2017-06-25 21:31:25] ErrorText: Метод <b>app\controllers\admin\TestController::viewAction</b> не найден | ErrorFile: D:\install\OpenServer\domains\fw\vendor\core\Router.php | ErrorString: 84
+ 
+[2017-06-25 21:39:47] ErrorText: <p>Не найден вид <b>D:\install\OpenServer\domains\fw/app/views/admin\User/index.php</b></p> | ErrorFile: D:\install\OpenServer\domains\fw\vendor\core\base\View.php | ErrorString: 58
+ 
+[2017-06-25 21:54:37] ErrorText: Контроллер <b>app\controllers\AdminController</b> не найден | ErrorFile: D:\install\OpenServer\domains\fw\vendor\core\Router.php | ErrorString: 91
+ 
+[2017-06-25 21:54:51] ErrorText: Контроллер <b>app\controllers\AdminController</b> не найден | ErrorFile: D:\install\OpenServer\domains\fw\vendor\core\Router.php | ErrorString: 91
+ 
+[2017-06-25 21:57:42] ErrorText: Контроллер <b>app\controllers\AdminController</b> не найден | ErrorFile: D:\install\OpenServer\domains\fw\vendor\core\Router.php | ErrorString: 91
+ 
+[2017-06-25 21:57:54] ErrorText: Контроллер <b>app\controllers\AdminController</b> не найден | ErrorFile: D:\install\OpenServer\domains\fw\vendor\core\Router.php | ErrorString: 91
+ 
+[2017-06-25 22:00:26] ErrorText: Контроллер <b>app\controllers\AdminController</b> не найден | ErrorFile: D:\install\OpenServer\domains\fw\vendor\core\Router.php | ErrorString: 91
+ 
+[2017-06-25 22:00:43] ErrorText: Контроллер <b>app\controllers\AdminController</b> не найден | ErrorFile: D:\install\OpenServer\domains\fw\vendor\core\Router.php | ErrorString: 91
+ 
+[2017-06-25 22:01:45] ErrorText: Контроллер <b>app\controllers\AdminController</b> не найден | ErrorFile: D:\install\OpenServer\domains\fw\vendor\core\Router.php | ErrorString: 91
+ 
+[2017-06-25 22:02:42] ErrorText: Контроллер <b>app\controllers\AdminController</b> не найден | ErrorFile: D:\install\OpenServer\domains\fw\vendor\core\Router.php | ErrorString: 91
+ 
+[2017-06-25 22:04:22] ErrorText: Контроллер <b>app\controllers\AdminController</b> не найден | ErrorFile: D:\install\OpenServer\domains\fw\vendor\core\Router.php | ErrorString: 91
+ 
+[2017-06-25 22:07:28] ErrorText: Контроллер <b>app\controllers\AdminController</b> не найден | ErrorFile: D:\install\OpenServer\domains\fw\vendor\core\Router.php | ErrorString: 89
+ 
+[2017-06-25 22:09:05] ErrorText: Страница не найдена | ErrorFile: D:\install\OpenServer\domains\fw\vendor\core\Router.php | ErrorString: 94
+ 
+[2017-06-25 22:09:21] ErrorText: Контроллер <b>app\controllers\AdminController</b> не найден | ErrorFile: D:\install\OpenServer\domains\fw\vendor\core\Router.php | ErrorString: 89
+ 
+[2017-06-25 22:10:18] ErrorText: Контроллер <b>app\controllers\AdminController</b> не найден | ErrorFile: D:\install\OpenServer\domains\fw\vendor\core\Router.php | ErrorString: 89
+ 
+[2017-06-25 22:11:50] ErrorText: Контроллер <b>app\controllers\AdminController</b> не найден | ErrorFile: D:\install\OpenServer\domains\fw\vendor\core\Router.php | ErrorString: 89
+ 
+[2017-06-25 22:14:09] ErrorText: Контроллер <b>app\controllers\AdminController</b> не найден | ErrorFile: D:\install\OpenServer\domains\fw\vendor\core\Router.php | ErrorString: 89
+ 
+[2017-06-25 22:17:12] ErrorText: Контроллер <b>app\controllers\AdminController</b> не найден | ErrorFile: D:\install\OpenServer\domains\fw\vendor\core\Router.php | ErrorString: 89
+ 
+[2017-06-25 22:17:52] ErrorText: Контроллер <b>app\controllers\AdminController</b> не найден | ErrorFile: D:\install\OpenServer\domains\fw\vendor\core\Router.php | ErrorString: 89
+ 
+[2017-06-25 22:18:24] ErrorText: Контроллер <b>app\controllers\AdminController</b> не найден | ErrorFile: D:\install\OpenServer\domains\fw\vendor\core\Router.php | ErrorString: 89
+ 
+[2017-06-25 22:18:51] ErrorText: <p>Не найден шаблон <b>D:\install\OpenServer\domains\fw/app/views/layouts/admin_public.php</b></p> | ErrorFile: D:\install\OpenServer\domains\fw\vendor\core\base\View.php | ErrorString: 76
+ 
+[2017-06-25 22:23:26] ErrorText: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')' | ErrorFile: D:\install\OpenServer\domains\fw\app\controllers\admin\UserController.php | ErrorString: 16
+ 
+[2017-06-25 22:31:50] ErrorText: Undefined variable: test | ErrorFile: D:\install\OpenServer\domains\fw\app\views\admin\User\index.php | ErrorString: 5
+ 
+[2017-06-25 22:43:36] ErrorText: Страница не найдена | ErrorFile: D:\install\OpenServer\domains\fw\vendor\core\Router.php | ErrorString: 94
+ 

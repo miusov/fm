@@ -38,6 +38,10 @@ Router::add('^page/(?P<action>[a-z-]+)/(?P<alias>[a-z-]+)$',['controller'=>'Page
 Router::add('^page/(?P<alias>[a-z-]+)$',['controller'=>'Page', 'action' => 'view']);
 
 //defaults routs
+
+Router::add('^admin$',['controller'=>'User', 'action'=>'index', 'prefix' => 'admin']);
+Router::add('^admin/?(?<controller>[a-z-]+)/?(?<action>[a-z-]+)?$', ['prefix' => 'admin']);
+
 Router::add('^$',['controller'=>'Main', 'action'=>'index']);
 Router::add('^(?<controller>[a-z-]+)/?(?<action>[a-z-]+)?$');
 

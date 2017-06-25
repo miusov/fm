@@ -39,6 +39,16 @@ class Router
                 {
                     $route['action'] = 'index';
                 }
+
+                //prefix for admin controllers
+                if (!isset($route['prefix'])) 
+                {
+                    $route['prefix'] = '';
+                }
+                else
+                {
+                    $route['prefix'] .= '\\';
+                }
                 $route['controller'] = self::upperCamelCase($route['controller']);
                 self::$route = $route;
                 return true;
@@ -52,12 +62,12 @@ class Router
      * @param string $url входящий URL
      * return void
      */
-    public static function dispatch($url)  //
+    public static function dispatch($url)
     {
         $url = self::removeQueryString($url);
         if (self::matchRoute($url))
         {
-            $controller = 'app\controllers\\'.self::$route['controller'].'Controller';
+            $controller = 'app\controllers\\'.self::$route['prefix'].self::$route['controller'].'Controller';
 
             if (class_exists($controller))
             {
@@ -70,21 +80,17 @@ class Router
                 }
                 else
                 {
-//                    echo "Метод <b>$controller::$action</b> не найден";
                     throw new \Exception("Метод <b>$controller::$action</b> не найден", 404);
                 }
 
             }
             else
             {
-//                echo "Контроллер <b>$controller</b> не найден";
                 throw new \Exception("Контроллер <b>$controller</b> не найден", 404);
             }
 
         }
         else{
-//            http_response_code(404);
-//            include '404.html';
             throw new \Exception("Страница не найдена", 404);
         }
     }
