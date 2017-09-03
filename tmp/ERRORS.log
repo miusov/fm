@@ -108,3 +108,5 @@
  
 [2017-09-03 16:29:25] ErrorText: require(D:\Progs\OpenServer\domains\fw/vendor/widgets/menu/menu_tpl/menu.php): failed to open stream: No such file or directory | ErrorFile: D:\Progs\OpenServer\domains\fw\vendor\fw\widgets\menu\Menu.php | ErrorString: 99
  
+[2017-09-03 17:45:45] ErrorText: <p>Не найден вид <b>D:\Progs\OpenServer\domains\fw/app/views/User/logout.php</b></p> | ErrorFile: D:\Progs\OpenServer\domains\fw\vendor\fw\core\base\View.php | ErrorString: 56
+ 

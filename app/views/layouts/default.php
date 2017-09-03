@@ -15,6 +15,13 @@
 </head>
 <body>
 
+<div>
+    <a href="/">HOME</a>
+    <a href="/admin">ADMIN</a>
+    <a href="/user/login">LOGIN</a>
+    <a href="/user/signup">SIGNUP</a>
+    <a href="/user/logout">LOGOUT</a>
+</div>
 
     <? echo $content ?>
 
