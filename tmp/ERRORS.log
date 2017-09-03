@@ -96,3 +96,15 @@
  
 [2017-06-25 22:43:36] ErrorText: Страница не найдена | ErrorFile: D:\install\OpenServer\domains\fw\vendor\core\Router.php | ErrorString: 94
  
+[2017-09-03 09:50:37] ErrorText: Could not connect to database (fw). | ErrorFile: D:\Progs\OpenServer\domains\fw\vendor\libs\rb.php | ErrorString: 858
+ 
+[2017-09-03 09:50:45] ErrorText: Could not connect to database (fw). | ErrorFile: D:\Progs\OpenServer\domains\fw\vendor\libs\rb.php | ErrorString: 858
+ 
+[2017-09-03 16:04:18] ErrorText: Страница не найдена | ErrorFile: D:\Progs\OpenServer\domains\fw\vendor\core\Router.php | ErrorString: 94
+ 
+[2017-09-03 16:18:13] ErrorText: require(D:\Progs\OpenServer\domains\fw/vendor/libs/rb.php): failed to open stream: No such file or directory | ErrorFile: D:\Progs\OpenServer\domains\fw\vendor\fw\core\Db.php | ErrorString: 16
+ 
+[2017-09-03 16:21:42] ErrorText: require(D:\Progs\OpenServer\domains\fw/vendor/widgets/menu/menu_tpl/menu.php): failed to open stream: No such file or directory | ErrorFile: D:\Progs\OpenServer\domains\fw\vendor\fw\widgets\menu\Menu.php | ErrorString: 99
+ 
+[2017-09-03 16:29:25] ErrorText: require(D:\Progs\OpenServer\domains\fw/vendor/widgets/menu/menu_tpl/menu.php): failed to open stream: No such file or directory | ErrorFile: D:\Progs\OpenServer\domains\fw\vendor\fw\widgets\menu\Menu.php | ErrorString: 99
+ 

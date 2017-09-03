@@ -138,15 +138,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPMailer/PHPMailer.git",
-                "reference": "819beca5abc3a32ca09d2a21273a6bf45bc7d759"
+                "reference": "ea25dc122d22966b7dd4ca1083c63afeeb50dfcd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/819beca5abc3a32ca09d2a21273a6bf45bc7d759",
-                "reference": "819beca5abc3a32ca09d2a21273a6bf45bc7d759",
+                "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/ea25dc122d22966b7dd4ca1083c63afeeb50dfcd",
+                "reference": "ea25dc122d22966b7dd4ca1083c63afeeb50dfcd",
                 "shasum": ""
             },
             "require": {
+                "ext-ctype": "*",
                 "php": ">=5.5.0"
             },
             "require-dev": {
@@ -154,6 +155,7 @@
                 "phpdocumentor/phpdocumentor": "2.*",
                 "phpunit/phpunit": "4.*",
                 "zendframework/zend-eventmanager": "3.0.*",
+                "zendframework/zend-i18n": "2.7.3",
                 "zendframework/zend-serializer": "2.7.*"
             },
             "suggest": {
@@ -192,7 +194,7 @@
                 }
             ],
             "description": "PHPMailer is a full-featured email creation and transfer class for PHP",
-            "time": "2017-04-18T15:45:29+00:00"
+            "time": "2017-08-28 11:42:41"
         },
         {
             "name": "psr/log",

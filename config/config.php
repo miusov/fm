@@ -2,8 +2,8 @@
 
 $config = [
     'components' => [
-      'cache' => 'vendor\libs\Cache',
-      'genpass' => 'vendor\libs\Genpass',
+      'cache' => 'fw\libs\Cache',
+      'genpass' => 'fw\libs\Genpass',
 
     ],
 ];
