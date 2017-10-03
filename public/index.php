@@ -1,12 +1,12 @@
 <?php
 ob_start('ob_gzhandler');
-session_start();
 
 require __DIR__ . '/../vendor/autoload.php';
 
 use fw\core\Router;
 
 require '../vendor/fw/libs/helpers.php';
+require '../vendor/fw/libs/functions.php';
 
 $query = rtrim($_SERVER['QUERY_STRING'], '/');
 

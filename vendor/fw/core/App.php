@@ -11,6 +11,7 @@ class App
 
     public function __construct()
     {
+	    session_start();
         self::$app = Regestry::instance();
         new ErrorHandler();
     }
