@@ -110,3 +110,9 @@
  
 [2017-09-03 17:45:45] ErrorText: <p>Не найден вид <b>D:\Progs\OpenServer\domains\fw/app/views/User/logout.php</b></p> | ErrorFile: D:\Progs\OpenServer\domains\fw\vendor\fw\core\base\View.php | ErrorString: 56
  
+[2017-10-03 18:55:53] ErrorText: Страница не найдена | ErrorFile: D:\Progs\OpenServer\domains\fw\vendor\fw\core\Router.php | ErrorString: 94
+ 
+[2017-10-03 18:56:22] ErrorText: <p>Не найден вид <b>D:\Progs\OpenServer\domains\fw/app/views/User/logout.php</b></p> | ErrorFile: D:\Progs\OpenServer\domains\fw\vendor\fw\core\base\View.php | ErrorString: 56
+ 
+[2017-10-03 19:23:36] ErrorText: Метод <b>app\controllers\UserController::indexAction</b> не найден | ErrorFile: D:\Progs\OpenServer\domains\fw\vendor\fw\core\Router.php | ErrorString: 83
+ 
