@@ -15,18 +15,10 @@
 </head>
 <body>
 
-<div>
-    <a href="/">HOME</a>
-    <a href="/admin">ADMIN</a>
-    <a href="/user/login">LOGIN</a>
-    <a href="/user/signup">SIGNUP</a>
-    <a href="/user/logout">LOGOUT</a>
-</div>
-
 <!--ВЫВОД ОШОБОК ВАЛИДАЦИИ-->
 <?php if (isset($_SESSION['error'])): ?>
     <div class="alert alert-danger">
-        <?=$_SESSION['error']; unset($_SESSION['error'])?>
+		<?=$_SESSION['error']; unset($_SESSION['error'])?>
     </div>
 <?php endif; ?>
 <!--КОНЕЦ ВЫВОДА ОШИБОК ВАЛИДАЦИИ-->
@@ -38,6 +30,14 @@
     </div>
 <?php endif; ?>
 <!--КОНЕЦ ВЫВОДА СООБЩЕНИЙ ВАЛИДАЦИИ-->
+
+<div>
+    <a href="/">HOME</a>
+    <a href="/admin">ADMIN</a>
+    <a href="/user/login">LOGIN</a>
+    <a href="/user/signup">SIGNUP</a>
+    <a href="/user/logout">LOGOUT</a>
+</div>
 
     <? echo $content ?>
 

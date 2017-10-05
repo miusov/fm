@@ -16,7 +16,7 @@ function xprint( $param, $title = 'Отладочная информация' )
         <style>
             .xprint-wrapper {
                 padding: 10px;
-                margin-bottom: 25px;
+                margin: 10px auto;
                 color: black;
                 background: #f6f6f6;
                 position: relative;

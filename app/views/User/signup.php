@@ -1,6 +1,6 @@
 
 <div class="container">
-    <h2 style="text-align: center">Registration</h2>
+    <h2 class="text-center">Registration</h2>
     <div class="row">
         <div class="col-md-6 offset-3">
             <form method="post" action="/user/signup">

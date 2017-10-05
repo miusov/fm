@@ -28,7 +28,7 @@ class UserController extends AppController
             	$_SESSION['success'] = 'Вы успешно зарегистрировались';
             }
             else{
-            	$_SESSION['error'] = 'Ошибка регистрации! Попробуй позже';
+            	$_SESSION['error'] = 'Ошибка регистрации! Попробуйте позже';
             }
             redirect();
         }
@@ -37,11 +37,25 @@ class UserController extends AppController
 
     public function loginAction()
     {
-
+    	if(!empty($_POST))
+	    {
+	    	$user = new User();
+	    	if ($user->login())
+		    {
+		    	$_SESSION['success'] = 'Вы успешно авторизованы';
+		    }
+		    else
+		    {
+			    $_SESSION['error'] = 'Ошибка при входе! Попробуйте позже';
+			}
+			redirect('/');
+	    }
+		View::setMeta('Log in');
     }
 
     public function logoutAction()
     {
-
+		if(isset($_SESSION['user'])) unset($_SESSION['user']);
+		redirect('/user/login');
     }
 }
