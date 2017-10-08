@@ -216,10 +216,10 @@ EMERGENCY (600): Emergency: system is unusable.
 
 
 `new \vendor\widgets\menu\Menu([`
-    `'tpl' => ROOT . '/vendor/widgets/menu/menu_tpl/menu.php',`     //указываем путь к шаблону меню
-    `'container' => 'ul',`                                          //устанавливаем тег-обертку
-    `'class' => 'default',`                                         //указываем класс
-    `'table' => 'categories',`                                      //указываем таблицу БД из которой построим меню
-    `'cache' => 3600,`                                              //время кеширования
-    `'cacheKey' => 'ul_menu',`                                      //ключ кеша
-    `]);`
+    `'tpl' => ROOT . '/vendor/widgets/menu/menu_tpl/menu.php',`     //указываем путь к шаблону меню  
+    `'container' => 'ul',`                                          //устанавливаем тег-обертку  
+    `'class' => 'default',`                                         //указываем класс  
+    `'table' => 'categories',`                                      //указываем таблицу БД из которой построим меню  
+    `'cache' => 3600,`                                              //время кеширования  
+    `'cacheKey' => 'ul_menu',`                                      //ключ кеша  
+    `]);`  
