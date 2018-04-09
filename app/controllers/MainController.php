@@ -96,7 +96,6 @@ class MainController extends AppController
 //            'cache' => 60,
 //            'cacheKey' => 'ul_menu',
 //        ]);
-
     }
     
 }
