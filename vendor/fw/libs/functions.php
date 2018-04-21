@@ -1,5 +1,8 @@
 <?php
 
+/**
+ * @param bool $http
+ */
 function redirect($http = false)
 {
 	if ($http)
@@ -14,6 +17,10 @@ function redirect($http = false)
 	exit;
 }
 
+/**
+ * @param $str
+ * @return string
+ */
 function h($str)
 {
 	return htmlspecialchars($str, ENT_QUOTES);
